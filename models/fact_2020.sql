@@ -1,0 +1,1 @@
+select * from {{ref('fact_table')}} where date_part(year, order_date) = 2020
